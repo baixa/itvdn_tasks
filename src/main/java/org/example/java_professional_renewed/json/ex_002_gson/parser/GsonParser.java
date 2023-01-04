@@ -3,7 +3,7 @@ package org.example.java_professional_renewed.json.ex_002_gson.parser;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonReader;
-import org.example.java_professional_renewed.json.ex_002_gson.entity.CurrencyRate;
+import org.example.java_professional_renewed.json.ex_002_gson.entity.Currency;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -25,15 +25,15 @@ public class GsonParser {
 
         JsonReader jsonReader = new JsonReader(new InputStreamReader(new URL(url).openStream()));
 
-        CurrencyRate[] currencyRates = gson.fromJson(jsonReader, CurrencyRate[].class);
+        Currency[] currencyRates = gson.fromJson(jsonReader, Currency[].class);
 
-        for (CurrencyRate currencyRate : currencyRates) {
+        for (Currency currencyRate : currencyRates) {
             System.out.println(currencyRate);
         }
 
         String gsonString = gson.toJson(currencyRates);
 
-        Files.write(Paths.get("D:\\Java Professional Course_video\\011_JSON\\011_Samples\\src\\main\\resources\\gsonCurrency.json"),
+        Files.write(Paths.get("C:\\Users\\Maksimchuk Ivan\\IdeaProjects\\itvdn\\src\\main\\resources\\gsonCurrency.json"),
                     gsonString.getBytes(), StandardOpenOption.CREATE);
     }
 }

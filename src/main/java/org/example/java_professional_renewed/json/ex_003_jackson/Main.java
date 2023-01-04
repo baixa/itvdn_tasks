@@ -11,6 +11,6 @@ import java.io.IOException;
  */
 public class Main {
     public static void main(String[] args) throws IOException {
-        JacksonParser.parseJson("https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5");
+        JacksonParser.parseJson("file:///C:/Users/Maksimchuk%20Ivan/Downloads/currencies.json-master/currencies.json-master/currencies.json");
     }
 }

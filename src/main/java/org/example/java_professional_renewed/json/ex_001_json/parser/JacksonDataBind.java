@@ -2,7 +2,7 @@ package org.example.java_professional_renewed.json.ex_001_json.parser;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.example.java_professional_renewed.annotations.ex_001_Annotations.javaDoc.Person;
+import org.example.java_professional_renewed.json.ex_001_json.entity.Person;
 
 import java.io.File;
 import java.io.IOException;

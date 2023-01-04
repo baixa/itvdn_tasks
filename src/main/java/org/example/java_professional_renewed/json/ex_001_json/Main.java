@@ -8,6 +8,6 @@ import org.example.java_professional_renewed.json.ex_001_json.parser.JacksonData
  */
 public class Main {
     public static void main(String[] args) {
-        JacksonDataBind.parseJson("D:\\Java Professional Course_video\\011_JSON\\011_Samples\\src\\main\\resources\\person.json");
+        JacksonDataBind.parseJson("C:\\Users\\Maksimchuk Ivan\\IdeaProjects\\itvdn\\src\\main\\resources\\person.json");
     }
 }

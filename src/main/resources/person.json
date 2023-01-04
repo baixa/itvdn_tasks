@@ -1,0 +1,14 @@
+{
+  "firstName": "Ivan",
+  "lastName": "Maksimchuk",
+  "course": {
+    "author": "Ivan Maksimchuk",
+    "title": "Java Professional",
+    "description": "For everyone"
+  },
+  "personalContacts": [
+    "https://itvdn.com/ru/video/java-professional",
+    "https://www.facebook.com/yevheniitykhonov",
+    "https://www.instagram.com/yevheniitykhonov"
+  ]
+}
