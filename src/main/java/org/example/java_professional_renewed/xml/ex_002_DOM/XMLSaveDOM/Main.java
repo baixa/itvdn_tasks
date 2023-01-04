@@ -49,8 +49,8 @@ public class Main {
             Transformer t = tf.newTransformer();
             // Похожая иерархия на I/O
             DOMSource source = new DOMSource(doc);
-            StreamResult sr = new StreamResult(new File("D:\\Java Professional Course_video\\" +
-                    "010_XML\\010_Samples\\src\\javaProfessional\\ex_002_DOM\\XMLSaveDOM\\2.xml"));
+            StreamResult sr = new StreamResult(new File("C:\\Users\\Maksimchuk Ivan\\IdeaProjects\\itvdn\\" +
+                    "src\\main\\java\\org\\example\\java_professional_renewed\\xml\\ex_002_DOM\\XMLSaveDOM\\2.xml"));
 
             // Трансформируем из источника в файл
             t.transform(source, sr);

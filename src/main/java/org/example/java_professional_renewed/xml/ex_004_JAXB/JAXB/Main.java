@@ -15,8 +15,8 @@ public class Main {
 
         try {
             // Создаем файл
-            File file = new File("D:\\Java Professional Course_video\\" +
-                    "010_XML\\010_Samples\\src\\javaProfessional\\ex_004_JAXB\\JAXB\\output.xml");
+            File file = new File("C:\\Users\\Maksimchuk Ivan\\IdeaProjects\\itvdn\\src" +
+                    "\\main\\java\\org\\example\\java_professional_renewed\\xml\\ex_004_JAXB\\JAXB\\output.xml");
             // Вызываем статический метод JAXBContext
             JAXBContext jaxbContext = JAXBContext.newInstance(Catalog.class);
             // Возвращает объект класса Marshaller, для того чтобы трансформировать объект

@@ -10,8 +10,8 @@ import javax.xml.parsers.SAXParserFactory;
 public class Main {
     public static void main(String args[]) {
         // Имя файла
-        final String fileName = "D:\\Java Professional Course_video\\" +
-                "010_XML\\010_Samples\\src\\javaProfessional\\ex_003_SAX\\SAXParser\\phonebook.xml";
+        final String fileName = "C:\\Users\\Maksimchuk Ivan\\IdeaProjects\\itvdn\\src\\" +
+                "main\\java\\org\\example\\java_professional_renewed\\xml\\ex_003_SAX\\SAXParser\\phonebook.xml";
         try {
             SAXParserFactory factory = SAXParserFactory.newInstance();
             SAXParser saxParser = factory.newSAXParser();
