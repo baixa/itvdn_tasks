@@ -1,14 +1,10 @@
 package org.example.java_professional_renewed.serialization.ex_001_serialization.classWithoutImplements;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
+import java.io.*;
 
 public class Bmw extends Car implements Serializable {
     private int price;
     private String model;
-//    private Engine engine;
     private transient Engine engine;
 
     Bmw(int weight, int price, String model, Engine engine) {
@@ -19,6 +15,7 @@ public class Bmw extends Car implements Serializable {
         System.out.println("Child Constructor");
     }
 
+    @Serial
     private void writeObject(ObjectOutputStream oos) {
         try {
             // Все что можно записываем обычным способом
@@ -31,6 +28,7 @@ public class Bmw extends Car implements Serializable {
         }
     }
 
+    @Serial
     private void readObject(ObjectInputStream ois) {
         try {
             // Все что можно считываем обычным способом
@@ -77,7 +75,7 @@ public class Bmw extends Car implements Serializable {
     }
 }
 
-class Engine { // implements Serializable{
+class Engine {
     private int power;
     private String producer;
 
@@ -104,7 +102,7 @@ class Engine { // implements Serializable{
 }
 
 abstract class Car implements Serializable {
-//     private int weight = 10000;
+
     private int weight;
 
     Car() {

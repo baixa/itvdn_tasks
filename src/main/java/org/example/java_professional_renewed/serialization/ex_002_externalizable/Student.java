@@ -42,7 +42,7 @@ public class Student implements Externalizable {
 class Main {
     public static void main(String[] args) {
         Student student = new Student(1, "Ivan");
-        File f = new File("D:\\Java Professional Course_video\\009_Serialization_and_Clonning\\009_Samples\\src\\javaProfessional\\simple\\ex_002_externalizable\\external.txt");
+        File f = new File("C:\\Users\\Maksimchuk Ivan\\IdeaProjects\\itvdn\\src\\main\\java\\org\\example\\java_professional_renewed\\serialization\\ex_002_externalizable\\external.txt");
         try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(f));
              ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(f))) {
             outputStream.writeObject(student);

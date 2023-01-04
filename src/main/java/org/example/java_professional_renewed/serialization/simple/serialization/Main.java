@@ -13,12 +13,11 @@ public class Main {
         student.setGroup(group);
         group.setStudent(student);
 
-        File f = new File("D:\\Java Professional Course_video\\009_Serialization_and_Clonning\\009_Samples\\src\\javaProfessional\\simple\\serialization\\output.txt");
+        File f = new File("C:\\Users\\Maksimchuk Ivan\\IdeaProjects\\itvdn\\src\\main\\java\\org\\example\\java_professional_renewed\\serialization\\simple\\serialization\\output.txt");
 
         try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(f));
              ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(f))) {
             outputStream.writeObject(student);
-            student = null;
             student = (Student) inputStream.readObject();
             System.out.println(student);
         } catch (IOException | ClassNotFoundException e) {

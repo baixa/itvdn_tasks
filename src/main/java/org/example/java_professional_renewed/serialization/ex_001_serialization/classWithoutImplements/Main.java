@@ -5,7 +5,7 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) {
         // Создаем объект класса файл и указываем файл
-        File f = new File("D:\\Java Professional Course_video\\009_Serialization_and_Clonning\\009_Samples\\src\\javaProfessional\\ex_001_serialization\\classWithoutImplements\\file1.txt");
+        File f = new File("C:\\Users\\Maksimchuk Ivan\\IdeaProjects\\itvdn\\src\\main\\java\\org\\example\\java_professional_renewed\\serialization\\ex_001_serialization\\classWithoutImplements\\file1.txt");
         // значение на 1000 не меняет, необходимо изменить Car implements Serializable
         Bmw c = new Bmw(1000, 5000, "x6", new Engine(1500, "BMW"));
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(f));

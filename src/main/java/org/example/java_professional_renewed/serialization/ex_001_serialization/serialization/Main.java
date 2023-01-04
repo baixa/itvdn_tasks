@@ -5,7 +5,7 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) {
         // Создаем объект класса файл и указываем файл
-        File f = new File("D:\\Java Professional Course_video\\009_Serialization_and_Clonning\\009_Samples\\src\\javaProfessional\\ex_001_serialization\\serialization\\file2.txt");
+        File f = new File("C:\\Users\\Maksimchuk Ivan\\IdeaProjects\\itvdn\\src\\main\\java\\org\\example\\java_professional_renewed\\serialization\\ex_001_serialization\\serialization\\file2.txt");
         Car c = new Car(50000, "Bmw");
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(f));
              ObjectInputStream ois = new ObjectInputStream(new FileInputStream(f))) {
