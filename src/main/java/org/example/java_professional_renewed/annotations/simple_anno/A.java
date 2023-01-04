@@ -11,6 +11,7 @@ import java.lang.annotation.*;
 public class A {
     public void print() {
         System.out.println("A");
+        B b = new B();
     }
 }
 
@@ -38,17 +39,13 @@ class B extends A {
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.METHOD, ElementType.FIELD, ElementType.TYPE})
 @interface MyAnno {
-    //    public abstract String str() default "Hello" + new String("World");
-//    String value();
     MyAnno2[] value();
     String str() default "Hello";
 
     int i() default 10 + 10;
-//    enum MyEnum {
-//        BLACK, WHITE, GREEN, ORANGE
-//    }
-//    Integer i2();
-//    Object o();
+    enum MyEnum {
+        BLACK, WHITE, GREEN, ORANGE
+    }
 }
 
 @Repeatable(MyAnno.class)   // Java 8

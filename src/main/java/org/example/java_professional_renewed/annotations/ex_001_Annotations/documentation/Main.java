@@ -1,6 +1,8 @@
 package org.example.java_professional_renewed.annotations.ex_001_Annotations.documentation;
 
 import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Target;
 
 /**
  * @author M. Ivan
@@ -8,6 +10,7 @@ import java.lang.annotation.Documented;
 public class Main {
     // Аннотация @Documented - документирует в JavaDoc
     @Documented
+    @Target(ElementType.METHOD)
     @interface ClassPreamble {
         String author();
         String date();
