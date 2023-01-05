@@ -31,7 +31,7 @@ public class Main {
         // Надо отфильтровать, используя данное условие, надо преобразовать набор объектов person в интовое значение
         double average2 = persons.stream()
                                  .filter(p -> p.getAge() >= 18)
-                                 .mapToInt(p -> p.getAge())
+                                 .mapToInt(Person::getAge)
                                  .average().getAsDouble();
 
         System.out.println(average2);
