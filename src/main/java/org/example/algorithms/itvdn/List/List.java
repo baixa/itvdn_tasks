@@ -1,4 +1,4 @@
-package org.example.algorithms.lesson_1.List;
+package org.example.algorithms.itvdn.List;
 
 /**
  * List interface, that define behavior of lists

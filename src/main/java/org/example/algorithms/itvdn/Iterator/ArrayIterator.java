@@ -1,4 +1,4 @@
-package org.example.algorithms.lesson_1.Iterator;
+package org.example.algorithms.itvdn.Iterator;
 
 import java.util.Iterator;
 

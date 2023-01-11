@@ -1,4 +1,4 @@
-package org.example.algorithms.lesson_1;
+package org.example.algorithms.itvdn;
 
 import org.junit.jupiter.api.Assertions;
 

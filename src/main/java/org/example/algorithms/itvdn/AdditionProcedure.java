@@ -1,4 +1,4 @@
-package org.example.algorithms.lesson_1;
+package org.example.algorithms.itvdn;
 
 /**
  * Если основная программа вызывает методы по очереди, то их сложности складываются: O(n^2 )+O(n^3)=O(n^3).

@@ -1,7 +1,7 @@
-package org.example.algorithms.lesson_1.List.ArrayList;
+package org.example.algorithms.itvdn.List.ArrayList;
 
-import org.example.algorithms.lesson_1.Iterator.ArrayIterator;
-import org.example.algorithms.lesson_1.List.List;
+import org.example.algorithms.itvdn.Iterator.ArrayIterator;
+import org.example.algorithms.itvdn.List.List;
 
 import java.util.Iterator;
 

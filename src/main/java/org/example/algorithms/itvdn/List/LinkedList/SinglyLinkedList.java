@@ -1,4 +1,4 @@
-package org.example.algorithms.lesson_1.List.LinkedList;
+package org.example.algorithms.itvdn.List.LinkedList;
 
 import java.util.Objects;
 

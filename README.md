@@ -1,22 +1,22 @@
 
 <h1 align="center">
   <br>
-  <img src="https://itvdn.com/Content/img/header/logo.svg" alt="itvdn" width="200">
+  <img src="https://jcp.org/images/initiatives/java_in_education/Duke-education.png" alt="itvdn" width="200">
   <br>
-  ITVDN Tasks
+  Java Edu
   <br>
 </h1>
 
-<h4 align="center">Resolved ITVDN tasks (Java course)</h4>
+<h4 align="center">Resolved tasks in Java course (ITVDN, books and others)</h4>
 
 <p align="center">
-  <a href="#description">Description</a> •
+  <a href="#description">Description</a> ï¿½
   <a href="#how-to-use">How To Use</a>
 </p>
 
 ## Description
 
-Repository contains solved tasks, that are included in Java course (itvdn.com)
+Repository contains solved tasks, that are included in Java course 
 
 **Key themes**
 * Java
@@ -44,7 +44,7 @@ Check, that required tools was installed and run this commands from your command
 $ git clone https://github.com/baixa/itvdn_tasks.git
 
 # Go into the repository
-$ cd softweb-api
+$ cd itvdn_tasks
 ```
 
 ---

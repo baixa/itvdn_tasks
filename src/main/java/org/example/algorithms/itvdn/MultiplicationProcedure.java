@@ -1,4 +1,4 @@
-package org.example.algorithms.lesson_1;
+package org.example.algorithms.itvdn;
 
 /**
  * Если один метод вызывает другой, то необходимо более тщательно оценить сложность последнего.

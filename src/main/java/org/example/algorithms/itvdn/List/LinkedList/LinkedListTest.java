@@ -1,4 +1,4 @@
-package org.example.algorithms.lesson_1.List.LinkedList;
+package org.example.algorithms.itvdn.List.LinkedList;
 
 public class LinkedListTest {
     public static void main(String[] args) {
